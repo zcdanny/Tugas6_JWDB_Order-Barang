@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: yellow;
+    text-align: center;
+    padding: 20px;
+}
+
+.login a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.login:hover {
+    background-color: darkkhaki;
+}
+
+.login {
+    background-color: darkgray;
+    color: black;
+    padding: 3px 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    width: 50px;
+    text-align: center;
+}
+
+main {
+    width: 400px;
+    height: auto;
+    margin: auto;
+    padding: 30px;
+    background-color: bisque;
+}
+
+ul li {
+    list-style: none;
+    background-color: yellow;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+ul li:hover {
+    background-color: gray;
+}
+
+#last-item {
+    background-color: white;
+}
+
+ul a.tbl-beli {
+    text-decoration: none;
+    color: black;
+}
+
+ul a li {
+    background-color: rgb(253, 0, 0);
+    margin-top: 20px;
+}
+
+ul a li:hover {
+    background-color: rgb(29, 248, 0);
+}
+
+ul li span {
+    float: right;
+}
